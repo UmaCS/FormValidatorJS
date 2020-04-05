@@ -9,28 +9,56 @@
 
   <body>
     <form class="main-content" id='form'>
+
+
       <h1>Order your Item</h1>
       <div class="input-section">
+        <!-- <legend>Basic Info</legend> -->
         <label for="username">Username</label>
-        <input type="text" id="username" placeholder="Enter Username">
+        <input type="text" id="username" placeholder="Enter username">
         <small>Error messege</small>
       </div>
       <div class="input-section">
         <label for="email">Email</label>
-        <input type="email" id='email' placeholder="Enter Email">
+        <input type="text" id='email' placeholder="Enter email">
         <small>Error messege</small>
       </div>
       <div class="input-section">
         <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Enter Password">
+        <input type="password" id="password" placeholder="Enter password">
         <small>Error messege</small>
       </div>
 
       <div class="input-section">
         <label for="confirmpass">Confirm Password</label>
-        <input type="password" id="confirmpass" placeholder="Confirm Password">
+        <input type="password" id="confirmPassword" placeholder="Confirm password">
         <small>Error messege</small>
       </div>
+
+      <!-- <div class="input-section">
+        <label for="job">Job Role:</label>
+        <select class="job">
+          <optgroup label="Web">
+            <option value="frontend-developer">frontend developer</option>
+            <option value="backend-developer">backend developer</option>
+            <option value="fullstack-developer">fullstack developer</option>
+          </optgroup>
+          <optgroup label="Mobile">
+            <option value="android-developer">android developer</option>
+            <option value="iOS-developer">iOS developer</option>
+          </optgroup>
+        </select>
+      </div>
+
+
+      <div class="input-section">
+        <label>Your Experience:</label>
+        <input type="radio" name="applicant_exp" value='under_5'><label for="under_5">Under 5 years</label><br>
+        <input type="radio" name="applicant_exp" value='over_5'><label for="over_5">Over 5 years</label>
+      </div>
+
+ -->
+
       <button>Submit</button>
     </form>
     <script src="app.js" charset="utf-8"></script>
